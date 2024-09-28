@@ -26,3 +26,10 @@ Work experience
   * Shanghai Artificial Intelligence Laboratory
   * Duties included: LLMs Parameters Efficient Fine-Tuning
   * Supervisor: Dr. Hang Yan
+  
+Publications
+======
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+  
